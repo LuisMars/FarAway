@@ -1,0 +1,39 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: { file: victorsfont.fnt },
+    title-font: { file: pixelflag.fnt }
+},
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, b: 0, g: 1, r: 0 },
+	white: { a: 1, b: 0.8, g: 0.8, r: 0.2 },
+	red: { a: 1, b: 0, g: 0, r: 1 },
+	black: { a: 1, b: 0.53, g: 0.35, r: 0.18 },
+	back: { a: 1, b: 0.53, g: 0.35, r: 0.18 },
+},
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	dialogDim: { name: white, color: { r: 0, g: 0, b: 0, a: 0.45 } },
+},
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+  default: { down: button-down, up: button-up, over: button-over },
+  arrowLeft: {down: arrow-left-down, up: arrow-left, over: arrow-left-over},
+  arrowRight: {down: arrow-right-down, up: arrow-right, over: arrow-right-over},
+},
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+  default: { down: button-down, up: button-up, over: button-over, font: default-font, fontColor: black },
+},
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+  default: { font: default-font, fontColor: white },
+  background: { background: text-field, font: default-font, fontColor: white }
+  title: { font: title-font, fontColor: white },
+  slim: { background: slim, font: default-font, fontColor: white }
+},
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+  default: { selection: selection, background: text-field, font: default-font, fontColor: white, cursor: cursor }
+},
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+  default: { checkboxOn: button-up, checkboxOff: button-down, font: default-font, fontColor: white }
+},
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+  default: { background: text-field, vScroll: v-scroll, vScrollKnob: v-knob }
+},
+}
